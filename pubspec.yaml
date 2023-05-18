@@ -1,0 +1,41 @@
+name: bbs
+description: BASIC BANKING SYSTEM
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  sqflite: ^2.2.8+1
+  dartz: ^0.10.1
+  flutter_bloc: ^8.1.2
+  get_it: ^7.5.0
+  flutter_animate: ^4.1.1+1
+  auto_animated: ^3.1.0
+  flutter_native_splash: ^2.2.19
+flutter_native_splash:
+  image: assets/images/bank.png
+  color: "#073763"
+  android: true
+  ios: true
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+
+  fonts:
+    - family: BrokenIcons
+      fonts:
+        - asset: assets/fonts/BrokenIcons.ttf
+
